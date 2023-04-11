@@ -20,7 +20,7 @@ import WelcomeScreen from "./WelcomeScreen";
 
 const LoginScreen = () => {
   const [name, setName] = useState("İdris");
-  const [email, setEmail] = useState("pt_idrisdeniz@hotmail.com");
+  const [email, setEmail] = useState("c.oglud52@hotmail.com");
   const [password, setPassword] = useState("123456");
 
   const setUser = useContext(AuthSetterContext);
