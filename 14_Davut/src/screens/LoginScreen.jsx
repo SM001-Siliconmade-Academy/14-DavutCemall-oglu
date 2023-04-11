@@ -19,7 +19,7 @@ import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import WelcomeScreen from "./WelcomeScreen";
 
 const LoginScreen = () => {
-  const [name, setName] = useState("İdris");
+  const [name, setName] = useState("davut");
   const [email, setEmail] = useState("c.oglud52@hotmail.com");
   const [password, setPassword] = useState("123456");
 
